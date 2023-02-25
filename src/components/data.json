@@ -1,0 +1,50 @@
+[
+    {
+        "model":"model-3",
+        "desc":"order online toucheless delivery",
+        "image":"/images/model-3.jpg",
+        "left":"Custom Order",
+        "right":"Exsisting Inventory"
+    },
+    {
+        "model":"model-s",
+        "desc":"order online toucheless delivery",
+        "image":"/images/model-s.jpg",
+        "left":"Custom Order",
+        "right":"Exsisting Inventory"
+    },
+    {
+        "model":"model-x",
+        "desc":"order online toucheless delivery",
+        "image":"/images/model-x.jpg",
+        "left":"Custom Order",
+        "right":"Exsisting Inventory"
+    },
+    {
+        "model":"model-y",
+        "desc":"order online toucheless delivery",
+        "image":"/images/model-y.jpg",
+        "left":"Custom Order",
+        "right":"Exsisting Inventory"
+    },
+    {
+        "model":"Lowest cost solar panels in america",
+        "desc":"money-back guarantee",
+        "image":"/images/solar-panel.jpg",
+        "left":"Custom Order",
+        "right":"Exsisting Inventory"
+    },
+    {
+        "model":"solar for new roofs",
+        "desc":"solar roof costs less than a new roof plus sonar panels",
+        "image":"/images/solar-roof.jpg",
+        "left":"Custom Order",
+        "right":"Exsisting Inventory"
+    },
+    {
+        "model":"Accessories",
+        "desc":"",
+        "image":"/images/accessories.jpg",
+        "left":"Shop Now"
+    }
+]
