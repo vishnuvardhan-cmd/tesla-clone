@@ -1,18 +1,22 @@
 import React from "react";
 import Styled from "styled-components";
-
-const Section = ({model,desc,image,left,right}) => {
+import Fade from "react-reveal/Fade";
+const Section = ({ model, desc, image, left, right }) => {
   return (
-    <Wrap style={{ backgroundImage: 'url("'+image+'")'}}>
-      <ItemText>
-        <h1>{model}</h1>
-        <p>{desc}</p>
-      </ItemText>
+    <Wrap style={{ backgroundImage: 'url("' + image + '")' }}>
+      <Fade bottom>
+        <ItemText>
+          <h1>{model}</h1>
+          <p>{desc}</p>
+        </ItemText>
+      </Fade>
       <Buttons>
+      <Fade bottom>
         <ButtonGroup>
           {left && <LeftButton>{left}</LeftButton>}
           {right && <RightButton>{right}</RightButton>}
         </ButtonGroup>
+        </Fade>
         <DownArrow src="/images/down-arrow.svg" />
       </Buttons>
     </Wrap>
